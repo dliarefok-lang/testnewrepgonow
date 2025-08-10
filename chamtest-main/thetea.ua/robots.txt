@@ -1,0 +1,41 @@
+User-agent: *
+Disallow: /kabinet
+Disallow: /checkout
+Disallow: /thank
+Disallow: *sort=*
+Disallow: *show=*
+Disallow: *itok=*
+Disallow: *null=*
+Disallow: *mdrv=*
+Disallow: *gad_campaignid=*
+Disallow: *utm_content=*
+Disallow: *utm_medium=*
+Disallow: *utm_campaign=*
+Disallow: *amp;*
+Disallow: */f/*,*
+Disallow: */f/*/*/*
+Disallow: *?variant=*
+
+Allow: /misc/*.css$
+Allow: /misc/*.css?
+Allow: /misc/*.js$
+Allow: /misc/*.js?
+Allow: /misc/*.gif
+Allow: /misc/*.jpg
+Allow: /misc/*.jpeg
+Allow: /misc/*.png
+
+Allow: /_nuxt/*.js$
+Allow: /_nuxt/*.js?
+Allow: /_nuxt/*.css$
+Allow: /_nuxt/*.css?
+
+Host: https://thetea.ua
+Sitemap: https://thetea.ua/sitemap.xml
+
+
+User-agent: AhrefsSiteAudit
+Allow: /
+
+User-agent: AhrefsBot
+Allow: /
